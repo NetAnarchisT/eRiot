@@ -1,0 +1,10 @@
+Anon Anarchist Action (an anarchist caucus inside anonymous)
+find us in the i2p shadownet IRC channels #aaa #AnonAnarchistAction #anonops
+https://aaa.status.net http://www.youtube.com/user/netanarchist
+
+HOW TO USE
+well for those few that may have no idea on how to run a shell script,  
+you need to install ruby1.9.x  apt-get install ruby1.9 
+then chmod 700 eriot.rb 
+and to run do: ruby eriot.rb or ./eriot.rb
+to stop for now just ctrl+c 
