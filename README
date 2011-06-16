@@ -1,3 +1,4 @@
+-eRiot-
 Anon Anarchist Action (an anarchist caucus inside anonymous)
 find us in the i2p shadownet IRC channels #aaa #AnonAnarchistAction #anonops
 https://aaa.status.net http://www.youtube.com/user/netanarchist
@@ -8,3 +9,19 @@ you need to install ruby1.9.x  apt-get install ruby1.9
 then chmod 700 eriot.rb 
 and to run do: ruby eriot.rb or ./eriot.rb
 to stop for now just ctrl+c 
+
+-eRiot_r-u-dead-yet-
+HOW TO USE
+This version of eRiot uses a web form attack called r-u-dead-yet
+there is a working and more mature python script called rudy
+also a document called OWASP-Universal-HTTP-DoS
+this script is very far from finish if you are serious about testing 
+consider using rudy instead.
+well for those few that may have no idea on how to run a shell script,  
+you need to install ruby1.9.x  apt-get install ruby1.9 
+you need also to install flags a ruby library
+sudo gem install flags
+then chmod 700 eriot_r-u-dead-yet.rb 
+and to run do: ruby eriot.rb or ./eriot.rb with parameter -target targerhost.org/form/path  
+remember you have to point it to a form and again this script is far from finish.
+to stop for now just ctrl+c
